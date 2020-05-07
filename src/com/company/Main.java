@@ -17,7 +17,7 @@ public class Main {
         Scanner scan3=new Scanner(System.in);
         int c=scan3.nextInt();
 
-        if ((a+b>c)&(b+c>a)&(a+c>b)) {
+        if ((a+b>c) && (b+c>a) && (a+c>b)) {
             System.out.println("Такой треугольник существует");
         } else {
             System.out.println("Такой треугольник не существует");
